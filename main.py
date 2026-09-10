@@ -1,4 +1,2 @@
-import requests
-
-response = requests.get("https://api.github.com")
-print(response.status_code)
+import numpy as np 
+print(np.__version__)
